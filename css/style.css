@@ -38,6 +38,7 @@ h3,
 h4,
 h5,
 h6 {
+  text-transform: capitalize;
   margin-bottom: 0.75rem;
 }
 
@@ -1169,35 +1170,7 @@ fieldset[disabled] .s-btn {
   display: table-cell;
   vertical-align: middle;
 }
-.s-header__navbar-row-col ul{
-    display: flex;
-    justify-content: flex-end;
-    margin: auto;
-}
-@media screen and (max-width: 500px){
-    .s-header__navbar-row-col ul{
-        padding: 0;
-        justify-content: center;
-    }
-}
-.s-header__navbar-row-col ul li{
-    list-style: none;
-    margin: 10px;
-}
-.s-header__navbar-row-col ul li a{
-    font-weight: 500;
-    color: #fff;
-}
-@media screen and (max-width: 500px){
-   .s-header__navbar-row-col ul li a{
-        font-size: 13px;
-   } 
-}
-@media screen and (max-width: 500px){
-   .s-header__navbar-row-col ul li a i{
-        font-size: 16px ! important;
-   } 
-}
+
 /* Logo
 ------------------------------ */
 .s-header__logo {
@@ -1640,7 +1613,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__navbar {
-  background: #29092e;
+  background: #fff;
 }
 
 .s-header__shrink .s-header__logo-img-default {
@@ -2329,21 +2302,7 @@ fieldset[disabled] .s-btn {
   width: 100%;
   overflow: hidden;
 }
-.s-swiper .logo{
-    width: 400px;
-    position: absolute;
-    z-index: 2;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-}
-@media screen and (max-width: 500px){
-    .s-swiper .logo{
-        width: 250px;
-    }
-}
+
 /* Arrows v1
 ------------------------------ */
 .s-swiper__arrow-v1--left, .s-swiper__arrow-v1--right {
