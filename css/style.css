@@ -187,16 +187,7 @@ a:focus {
     margin: auto;
     opacity: .06;
 }
-.logo{
-    width: 400px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 0; 
-}
+
 /*----------------------------------
   Button
 ------------------------------------*/
@@ -2366,6 +2357,9 @@ fieldset[disabled] .s-btn {
     bottom: 0;
 }
 @media screen and (max-width: 500px){
+    .preloader .logoPreloader{
+        width: 250px;
+    }
     .s-swiper .logo{
         width: 250px;
     }
