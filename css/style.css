@@ -1416,7 +1416,9 @@ fieldset[disabled] .s-btn {
     float: none;
   }
 }
-
+.mCSB_container{
+  height: inherit !important;
+}
 .s-header__nav-menu-item {
   padding: 0 0 0 5.625rem;
   margin-bottom: .3125rem;
