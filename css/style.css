@@ -1684,6 +1684,10 @@ fieldset[disabled] .s-btn {
     justify-content: space-around;
     display: flex;
 }
+@media (max-width: 768px){
+  .contacto{
+    display: none;}
+}
 .contacto a{
   color: #fff;
 }
