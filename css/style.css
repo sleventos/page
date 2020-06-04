@@ -1845,6 +1845,11 @@ fieldset[disabled] .s-btn {
     width: 180px;
     margin: 5px 50px;
 }
+@media (max-width: 768px){
+  .MiniLogo{
+    margin: 5px 20px;
+  }
+}
 /* Logo
 ------------------------------ */
 .s-header-v2__logo {
