@@ -14,7 +14,7 @@ var Circle = function() {
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#FF26E2'],
       duration: 1500
     });
 
@@ -28,7 +28,7 @@ var Circle = function() {
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#FF26E2'],
       duration: 1500
     });
 
@@ -42,7 +42,7 @@ var Circle = function() {
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#FF26E2'],
       duration: 1500
     });
 
@@ -56,7 +56,7 @@ var Circle = function() {
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#FF26E2'],
       duration: 1500
     });
   }
