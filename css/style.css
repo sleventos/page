@@ -1391,6 +1391,16 @@ fieldset[disabled] .s-btn {
 
 /* Nav
 ------------------------------ */
+.footer h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.footer h1 span{
+    font-weight: 500;
+    font-size: 14px;
+}
 .s-header__nav {
   height: 100%;
   padding: 7.5rem 0;
