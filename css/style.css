@@ -780,6 +780,13 @@ fieldset[disabled] .s-btn {
   .modal-content .infoServicio{
     padding: 20px;
   }
+  .modal-content .infoServicio h1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .modal-content .infoServicio h1 i{
+    margin-right: 5px;
+  }
   .modal-content .infoServicio ul li img{
     width: 120px;
   }
