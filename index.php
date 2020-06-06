@@ -463,9 +463,7 @@
         <div class="footer">
             <h1>SL Eventos<br><span>Organizando Experiencias</span></h1>
         </div>
-<!-- ------------------------------------------------------------------------------------------------------- -->
-        <?php include './componentes/enviar.php';?>
-<!-- ------------------------------------------------------------------------------------------------------- -->
+
         <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
