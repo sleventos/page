@@ -143,7 +143,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #1095ac;
+  color: #FF26E2;
   text-decoration: none;
 }
 
@@ -218,6 +218,9 @@ a:focus {
     width: 100%;
     font-weight: bold;
     font-size: 30px;
+  }
+  .line {
+      margin: 10px auto;
   }
 }
 /*----------------------------------
@@ -729,6 +732,61 @@ fieldset[disabled] .s-btn {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+
+
+.Servicios{
+  height: 190px;
+  position: relative;
+}
+.detalles{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+}
+.modal-content .infoServicio{
+  padding: 50px;
+}
+.modal-content .infoServicio ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.modal-content .infoServicio ul li{
+  list-style: none;
+  margin: 5px;
+}
+.modal-content .infoServicio ul li img{
+  width: 180px;
+  border-radius: 10px;
+}
+.modal-content .infoServicio .contactanos a{
+    color: #000;
+    margin-right: 10px;
+}
+.modal-content .infoServicio .contactanos a span{
+  color: #FF26E2;
+  margin-right: 5px;
+}
+@media (max-width: 800px){
+  .Servicios {
+    height: max-content;
+  }
+}
+@media (max-width: 500px){
+  .modal-content{
+    width: 90%;
+    margin: 30px auto;
+  }
+  .modal-content .infoServicio{
+    padding: 20px;
+  }
+  .modal-content .infoServicio ul li img{
+    width: 100px;
+  }
+  .modal-content .infoServicio .contactanos a{
+    display: block;
+  }
+}
 /* Sizes
 ------------------------------ */
 .s-icon--sm {
