@@ -439,19 +439,19 @@
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Contacto</p>
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Envíanos un correo</h2>
                 </div>
-                <form>
+                <form method="post" action="#">
                     <div class="row g-margin-b-40--xs">
                         <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
                             <div class="g-margin-b-20--xs">
-                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name">
+                                <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Nombre" name="nombre">
                             </div>
                             <div class="g-margin-b-20--xs">
-                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
+                                <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" name="correo">
                             </div>
-                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone">
+                            <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Teléfono" name="telefono">
                         </div>
                         <div class="col-sm-6">
-                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Your message"></textarea>
+                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Tu mensaje" name="informacion"></textarea>
                         </div>
                     </div>
                     <div class="g-text-center--xs">
@@ -463,15 +463,9 @@
         <div class="footer">
             <h1>SL Eventos<br><span>Organizando Experiencias</span></h1>
         </div>
-        <!-- End Feedback Form -->
-
-        <!-- Google Map -->
-        <!--section class="s-google-map">
-            <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
-        </section-->
-
-
-        <!-- Back To Top -->
+<!-- ------------------------------------------------------------------------------------------------------- -->
+        <?php include './componentes/enviar.php';?>
+<!-- ------------------------------------------------------------------------------------------------------- -->
         <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
