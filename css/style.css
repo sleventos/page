@@ -213,6 +213,13 @@ a:focus {
     background: #797979;
     margin: 24px auto;
 }
+@media (max-width: 500px){
+  .mail{
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+  }
+}
 /*----------------------------------
   Button
 ------------------------------------*/
