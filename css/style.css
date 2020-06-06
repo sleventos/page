@@ -187,7 +187,32 @@ a:focus {
     margin: auto;
     opacity: .06;
 }
-
+.mail{
+  width: 400px;
+  margin: auto;
+  font-size: 40px;
+  display: block;
+  transition: color .3s;
+}
+.mail:hover{
+  color: #FF26E2;
+}
+.g-margin-b-80--xs{
+  margin: 0 !important;
+}
+.fon{
+  font-weight: bold;
+  font-size: 25px;
+}
+.fon:hover{
+  color: #FF26E2;
+}
+.line{
+    width: 30px;
+    height: 1px;
+    background: #797979;
+    margin: 24px auto;
+}
 /*----------------------------------
   Button
 ------------------------------------*/
@@ -2135,7 +2160,7 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 .s-back-to-top {
   position: fixed;
-  right: 3.125rem;
+  right: 1.125rem;
   bottom: -3.125rem;
   display: block;
   width: 1.875rem;
